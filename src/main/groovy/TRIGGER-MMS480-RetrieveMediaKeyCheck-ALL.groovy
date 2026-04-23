@@ -1,4 +1,21 @@
-
+/**
+ *  Business Engine Extension
+ */
+ /****************************************************************************************
+ Extension Name: EXT480
+ Type : ExtendM3Trigger
+ Script Author: Arun Tiwari
+ Date: 2022-05-26
+  
+ Description:
+       set the consignee based on order division
+          
+ Revision History:
+ Name                    Date             Version          Description of Changes
+ Arun Tiwari             2022-05-26         1.0              Initial Version
+ Arun Tiwari             2026-04-20         2.0              Replaced GetHead to GetOrderHead
+ ******************************************************************************************/
+ 
 public class RetrieveMediaKeyCheck extends ExtendM3Trigger {
   private final MethodAPI method
   private final DatabaseAPI database
